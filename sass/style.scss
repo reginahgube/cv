@@ -247,10 +247,11 @@ h1, h2, h3, h4, h5, h6, figure {
 						margin-left: -15px;
 					}
 					&:after{
-						top: 28px;
+						
 						width: 20px;
 						height: 3px;
-						margin-right: -15px;
+						
+						text-align: center;
 					}
 				}
 			}
@@ -296,17 +297,20 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
 	background: $brand-primary;
+	margin: 100px;
+	padding-right: 300px;
 	h2 {
 		color: $brand-white;
 	}
 	.services-padding{
-		padding: 7em 0;
+		padding: 900px;
 	}
 	.feature-left {
 		margin-bottom: 40px;
 		float: left;
 		@media screen and (max-width: $screen-md) {
 			margin-bottom: 30px;
+			
 		}
 		.icon {
 			display: table;

@@ -24,6 +24,8 @@ body {
   height: 100%;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: 0.5s;
 }
 .offcanvas #page {
@@ -148,17 +150,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: black;
   margin-left: -30px;
 }
-#fh5co-header .display-tc h1 span:after,
-.fh5co-cover .display-tc h1 span:after {
-  position: absolute;
-  top: 40px;
-  right: 0;
-  width: 30px;
-  height: 4px;
-  content: '';
-  background: black;
-  margin-right: -30px;
-}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
@@ -212,7 +204,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: palevioletred;
+  color: pink;
   margin: 10px;
   
 }
@@ -258,7 +250,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: palevioletred;
+  color: pink;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -309,7 +301,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: black;
-  background: palevioletred;
+  background: pink;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: black;
@@ -365,7 +357,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: palevioletred;
+  color: pink;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -391,7 +383,7 @@ h1, h2, h3, h4, h5, h6, figure {
   zoom: 1;
   *display: inline;
   color: black;
-  background: #d22b92;
+  background: pink;
   padding: 10px 10px 2px 10px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -402,7 +394,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: palevioletred;
+  background: pink;
 }
 
 .fh5co-heading {
@@ -467,7 +459,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #e6e6e6;
+  background: pink;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -532,7 +524,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: palevioletred;
+  background-color: pink;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -672,16 +664,16 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: black;
 }
 .progress-bar.progress-bar-2 {
-  background-color: palevioletred
+  background-color: pink;
 }
 .progress-bar.progress-bar-3 {
-  background-color: palevioletred;
+  background-color: pink;
 }
 .progress-bar.progress-bar-4 {
-  background-color: palevioletred;
+  background-color: pink;
 }
 .progress-bar.progress-bar-5 {
-  background-color: palevioletred;
+  background-color: pink;
 }
 
 .chart {
@@ -793,6 +785,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .fh5co-heading h2 {
   color: black;
   margin-bottom: 20px !important;
+  text-align: center;
 }
 #fh5co-started .fh5co-heading p {
   color: black;
@@ -812,6 +805,9 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog {
   width: 100%;
   float: left;
+
+
+
   margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
@@ -986,7 +982,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 .contact-info li a {
-  color: purple;
+  color: pink;
 }
 
 .form-control {
@@ -996,7 +992,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-box-shadow: none;
   box-shadow: none;
   border: none;
-  border: 2px solid purple;
+  border: 2px solid pink;
   font-size: 18px;
   font-weight: 300;
   -webkit-border-radius: 4px;
@@ -1006,7 +1002,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .form-control:focus, .form-control:active {
   box-shadow: none;
-  border: 2px solid purple;
+  border: 2px solid pink;
 }
 
 input[type="text"] {
@@ -1047,7 +1043,7 @@ input[type="text"] {
   width: 50px;
   height: 50px;
   display: table;
-  background: white;
+  background: black;
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1091,12 +1087,12 @@ input[type="text"] {
 }
 
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
-  color: purple;
+  color: pink;
 }
 
 .btn-outline {
   background: none;
-  border: 2px solid purple;
+  border: 2px solid pink;
   font-size: 16px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1170,4 +1166,30 @@ input[type="text"] {
   opacity: 0;
 }
 
+.row
+{
+  margin-left: 0;
+    margin-right: 0;
+ 
+
+}
+
 /*# sourceMappingURL=style.css.map */
+.mb-5{
+margin-left: 70px;
+text-align: center;
+background-color: pink;
+}
+.mb-6
+{
+margin-left: 70px;
+text-align: center;
+background-color: pink;
+}
+.mb-7
+{
+margin-left: 70px;
+text-align: center;
+background-color: pink;
+font-size: larger;
+}
