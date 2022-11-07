@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 
 }
-
 #fh5co-header,
 .fh5co-cover {
   background-color: black;
@@ -204,7 +203,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: pink;
+  color: white;
   margin: 10px;
   
 }
