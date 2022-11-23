@@ -1168,7 +1168,7 @@ input[type="text"] {
 
 .row
 {
-  margin-left: 0;
+  margin-left: 100px;
     margin-right: 0;
  
 
@@ -1176,7 +1176,7 @@ input[type="text"] {
 
 /*# sourceMappingURL=style.css.map */
 .mb-5{
-margin-left: 70px;
+margin-left: 50px;
 text-align: center;
 background-color: pink;
 }
@@ -1191,5 +1191,5 @@ background-color: pink;
 margin-left: 70px;
 text-align: center;
 background-color: pink;
-font-size: larger;
+font-size: small;
 }
